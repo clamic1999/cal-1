@@ -21,10 +21,14 @@ body{
     text-align: center;
     background-color: white;
     font-size: 50px;
-    letter-spacing: 1px;
+    
     color: black;
     border: 2px solid;
     border-collapse: collapse;
+}
+.none{
+    border: none;
+    background-color: lightpink;
 }
 .table, td{
     width: 100px;
@@ -38,22 +42,14 @@ body{
     color: white;
 }
 .tr,th,td{
-    padding: 20px;
+    height: 60px;
     border: 2px solid black;
 }
 .pic{
-    height: 150px;
-    width: 200px;
-    margin-top: 5px;
-    left: 30%;
-    background-color: white;
-    border-radius: 50px;
+    height: 200px;
+    width: 300px;
 }
 .pics{
-    height: 150px;
-    width: 200px;
-    margin-top: 5px;
-    left: 80%;
-    
-    border-radius: 50px;
+     height: 200px;
+    width: 300px;
 }
